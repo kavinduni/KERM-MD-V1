@@ -59,7 +59,6 @@ const express = require("express");
 const app = express();
 const port = process.env.PORT || 9090;
 
-//=============================================
 
 async function connectToWA() {
 console.log("CONNECTING KERM_MD-V1🧬...");
