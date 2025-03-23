@@ -29,7 +29,7 @@ cmd({
         const channelLink = "https://whatsapp.com/channel/0029Vafn6hc7DAX3fzsKtn45";
 
         // Send the channel link to the user
-        reply(`Here's 💁🏽 the link to our official WhatsApp Kerm channel:\n\n${channelLink}\n\n> Join us to stay updated with the latest news and announcements🧞‍♂️.`);
+        reply(`*ʜᴇʀᴇ's ᴛʜᴇ ʟɪɴᴋ ᴛᴏ ᴏᴜʀ ᴏғғɪᴄɪᴀʟ ᴡʜᴀᴛsᴀᴘᴘ ᴄʜᴀɴɴᴇʟ*:\n\n${channelLink}\n\n> *ᴊᴏɪɴ ᴜs ᴛᴏ sᴛᴀʏ ᴜᴘᴅᴀᴛᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ʟᴀᴛᴇsᴛ ɴᴇᴡs ᴀɴᴅ ᴀɴɴᴏᴜɴᴄᴇᴍᴇɴᴛs🧞‍♂️.*`);
     } catch (error) {
         // Log and notify about any errors
         console.error("Error sending channel link:", error.message);
@@ -50,7 +50,7 @@ cmd({
         const supportLink = "https://chat.whatsapp.com/L5MM9j04Caz4y2EZHRnD1Z";
 
         // Send the support link to the user
-        reply(`Need help 💁🏽 or have questions ? Join Kerm support group:\n\n${supportLink}\n\n> Feel free to ask your questions or report issues🙇🏽.`);
+        reply(`*ɴᴇᴇᴅ ʜᴇʟᴘ ᴏʀ ʜᴀᴠᴇ ǫᴜᴇsᴛɪᴏɴs ? ᴊᴏɪɴ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ🪀*:\n\n${supportLink}\n\n> *ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ᴀsᴋ ʏᴏᴜʀ ǫᴜᴇsᴛɪᴏɴs ᴏʀ ʀᴇᴘᴏʀᴛ ɪssᴜᴇs🙇🏻‍♂️.*`);
     } catch (error) {
         // Log and notify about any errors
         console.error("Error sending support link:", error.message);

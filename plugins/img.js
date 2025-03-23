@@ -16,6 +16,7 @@ const {
   commands
 } = require('../command');
 const axios = require('axios');
+/*
 cmd({
   'pattern': "img",
   'alias': ["image", "pinterest", "pinimg"],
@@ -35,7 +36,7 @@ cmd({
       return _0x2ac5cb("*Please provide search keywords for the image. Eg Kerm*");
     }
     _0x2ac5cb("*🔍 Showing Results For - " + _0x3207b0 + "...*");
-    const _0x2f5556 = 'https://rubenbot-subzero-api.hf.space/download/piniimg?text=' + encodeURIComponent(_0x3207b0);
+    const _0x2f5556 = 'https://apis.davidcyriltech.my.id/googleimage?query=' + encodeURIComponent(_0x3207b0);
     const _0x530cac = await axios.get(_0x2f5556);
     if (!_0x530cac.data || !_0x530cac.data.result || _0x530cac.data.result.length === 0x0) {
       return _0x2ac5cb("❌ No images found for \"" + _0x3207b0 + "\".");
@@ -62,8 +63,9 @@ cmd({
     _0x2ac5cb("❌ An error occurred while processing your request.");
   }
 });
+*/
 
-/*
+
 const GOOGLE_API_KEY = 'AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWI'; // Replace with your Google API key
 const GOOGLE_CX = 'baf9bdb0c631236e5'; // Replace with your Google Custom Search Engine ID
 //const apiKey = "AIzaSyDMbI3nvmQUrfjoCJYLS69Lej1hSXQjnWI"; // Votre clé API Google
@@ -115,4 +117,3 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         reply(`Error: ${e.message}`);
     }
 });
-*/
